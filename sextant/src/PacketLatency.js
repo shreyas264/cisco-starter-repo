@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { w3cwebsocket as W3CWebSocket } from "websocket";
 const client = new W3CWebSocket('ws://localhost:55455');
 
-class PylonConnector extends Component {
+class PacketLatency extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -27,4 +27,4 @@ class PylonConnector extends Component {
     }
 }
 
-export default PylonConnector;
+export default PacketLatency;
